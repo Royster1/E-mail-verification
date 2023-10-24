@@ -1,15 +1,15 @@
 # E-mail-verification
 Springboot+JavaMail+redis(jedis作为客户端)实现邮件发送与验证码功能
 
-#1 使用说明
+# 使用说明
 
-克隆项目
+### 克隆项目
 ```https://github.com/Royster1/E-mail-verification```
 
-启动服务
+### 启动服务
 ```启动redis服务```
 
-导入依赖
+### 导入依赖
 ```
 <dependency>
     <groupId>org.springframework.boot</groupId>
