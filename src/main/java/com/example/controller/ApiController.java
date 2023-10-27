@@ -18,7 +18,7 @@ public class ApiController {
     VerifyService service;
 
     @RequestMapping("/verify-code")
-    public RestBean verifyCode(@RequestParam("email") String email){
+    public RestBean verifyCode(@RequestParam("reason") String email){
         try {
             service.sendVerifyCode(email);
             return new RestBean(200, "邮件发送成功");
